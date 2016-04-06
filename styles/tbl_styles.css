@@ -1,0 +1,63 @@
+/* STYLES FOR TABLES - EXAMPLE */
+#tbl1 {
+	background-color: aliceblue; }
+#tbl1 th {
+	min-width: 60px;
+	border-style: groove;
+	border-width: 4px;
+	border-color: darkBlue; }
+#tbl1 td {
+	min-width: 60px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: oldlace; 
+	border-style: inset;
+	border-color: lightGray;
+	border-width: 4px; }
+#tbl1 tr {
+	margin: 6px; }
+#tbl2 {
+	background-color: blanchedAlmond;
+	border-style: double;
+	border-width: 2px;
+	border-color: brown; }
+#tbl2 th {
+	background-color: seaShell; }
+#tbl2 td {
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: center; }
+.boxit {
+	border-style: solid;
+	border-width: 2px;
+	border-color: black; }
+#tbl3 {
+	background-color: cornsilk; }
+#tbl3 td {
+	color: red;
+	padding-left: 10px;
+	padding-right: 10px; }
+#tbl4 {
+	background-color: #eaf3eb;
+	border-style: groove;
+	border-width: 4px;
+	border-color: green; }
+#tbl4 th {
+	background-color: #eaf3eb; }
+#tbl4 td {
+	padding-left: 10px;
+	padding-right: 10px; }
+#tbl4 tbody tr:nth-child(even) {
+	background-color: #ddeae9; }
+#tbl4 tbody tr:nth-child(odd) {
+	background-color: #c4e6e3; }
+.talign {
+	text-align: center; }
+.whiteit {
+	background-color: white; }
+#tbl4 tfoot .lst {
+	font-style: bold;
+	background-color: #cdf9b4; }
+.ulit {
+	text-decoration: underline; }
+	
