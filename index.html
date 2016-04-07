@@ -1,6 +1,16 @@
 <!DOCTYPE html>
-<html>
+<head>
+<title>HTML TABLE CODE</title>
+<meta charset="utf-8" />
+<meta name="description" content="sample code for creating tables" />
+<meta http-equiv="author" content="Ken Cowles" />
+<link href="styles/tbl_styles.css"
+		type="text/css" rel="stylesheet" />
+</head>
+
 <body>
+
+
 <div id="whole" class="grid_16 alpha omega">
 <p>The hikes:</p>
 	<ul id="lnks2whole">
@@ -90,6 +100,53 @@
 				
 			</ul>
 		</div>		
+
+	<!-- LONG TABLES -->
+	<table id="tbl4">
+		<thead>
+			<th class="ulit">Date</th>
+			<th class="ulit">Name</th>
+			<th class="ulit">Map</th>
+			<th class="ulit">Album</th>
+		</thead>
+		<tbody>
+			<tr>
+				<th>20160305</th>
+				<th>Ancho Rapids</th>
+				<td><a href="visualizer/20160305_AnchoRapids_MapDL.html" target="_blank">Link</a></td>
+				<td><a href="https://www.flickr.com/photos/30474783@N06/albums/72157665320922792" target="_blank">Link</a></td>
+			</tr>
+			<tr>
+				<th>Red/Blue Dot</th>
+				<td>4.3 miles</td>
+				<td>1134 ft</td>
+			</tr>
+			<tr>
+				<th>Tsankawi</th>
+				<td>2.1 miles</td>
+				<td>256 ft</td>
+			</tr>
+			<tr>
+				<th>La Luz</th>
+				<td>7.5 miles</td>
+				<td>3540 ft</td>
+			</tr>
+			<tr>
+				<th>Domingo Baca</th>
+				<td>4.6 miles</td>
+				<td>2742 ft</td>
+			</tr>
+		</tbody>
+		<!-- THE BOTTOM LINE, so to speak: -->
+		<tfoot>
+			<tr>
+				<td></td>  <!-- empty cell -->
+				<td class="lst">5 Hikes</td>
+				<td class="lst">25.6 miles</td>
+			</tr>
+		</tfoot>
+	</table>
+
   <div class="right">
     <p><a href="http://validator.w3.org/check/referer">Validate XHTML 1.0 Strict</a></p>
   </div>
